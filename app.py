@@ -26,7 +26,7 @@ st.set_page_config(
 data = {
     "nama": "Resti Jamilah",
     "posisi": "Information System Analyst",
-    "email": "restijamilah81@gmail.com",
+    "email": "restijamilah861@gmail.com",
     "telepon": "085624908600",
     "alamat": "Sukabumi, Jawa Barat",
 
