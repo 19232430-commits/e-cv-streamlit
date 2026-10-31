@@ -94,7 +94,7 @@ data = {
 # LOKASI FOTO
 # =========================
 FOLDER_APP = Path(__file__).resolve().parent
-FOTO_PATH = FOLDER_APP / "foto_resti.jpeg"
+FOTO_PATH = FOLDER_APP / "foto_resti.jpeg.png"
 
 # =========================
 # WARNA
@@ -243,7 +243,10 @@ if FOTO_PATH.is_file():
         unsafe_allow_html=True
     )
 else:
-    st.error("Foto profil belum ditemukan. Periksa nama file foto.")
+    st.error(
+        "Foto profil belum ditemukan. "
+        "Pastikan nama file adalah foto_resti.jpeg.png."
+    )
 
 # =========================
 # MENAMPILKAN DATA CV
